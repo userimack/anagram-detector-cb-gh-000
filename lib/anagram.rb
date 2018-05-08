@@ -10,7 +10,7 @@ class Anagram
     result_list = []
     
     word_list.each do |word|
-      result_list << word if word.split("").sort == @anagram.split("").sort 
+      result_list << word if word.split("").sort == @anagram.split("").sort
     end
   end 
   
