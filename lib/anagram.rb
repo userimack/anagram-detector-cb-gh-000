@@ -6,8 +6,8 @@ class Anagram
     @word = word 
   end
   
-  def match()
-    result = []
+  def match(anagram_list)
+    result_list = []
     
     
   end 
