@@ -6,11 +6,13 @@ class Anagram
     @anagram = anagram 
   end
   
-  def match(anagram_list)
+  def match(word_list)
     result_list = []
     
-    anagram_list.each do |anagram|
-    
+    word_list.each do |word|
+      result_list << word if word.split("").sort == @anagram.split("").sort 
+        
+      end 
     
   end 
   
