@@ -2,7 +2,7 @@
 class Anagram
   attr_reader :anagram 
   
-  def inititalize(anagram)
+  def initialize(anagram)
     @anagram = anagram 
   end
   
