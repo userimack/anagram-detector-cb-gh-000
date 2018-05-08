@@ -1,13 +1,15 @@
 # Your code goes here!
 class Anagram
-  attr_reader :word 
+  attr_reader :anagram 
   
-  def inititalize(word)
-    @word = word 
+  def inititalize(anagram)
+    @anagram = anagram 
   end
   
   def match(anagram_list)
     result_list = []
+    
+    anagram_list.each do |anagram|
     
     
   end 
